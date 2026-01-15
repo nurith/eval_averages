@@ -14,7 +14,7 @@ import sys
 import argparse
 from typing import Dict, List, Optional, Tuple
 import json
-
+PDFTOTEXT = os.path.join(os.path.dirname(__file__), "pdftotext.exe")
 LINE_TITLE = '15 Taking everything into account, the instructor was:'
 LINE_COLS = 'Field Mean Std Deviation Count'
 
